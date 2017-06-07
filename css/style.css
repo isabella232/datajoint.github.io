@@ -1,0 +1,53 @@
+body {
+    width: 100vw;
+    height: 100%;
+    font-family: 'Abel', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.top-section {
+    padding-top: 40px;
+    padding-bottom: 0;
+    background-image: url(../images/datajointBackdrop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    text-align: center;
+}
+
+.banner {
+    padding-bottom: 60px;
+}
+
+a {
+    font-size: 3.3rem;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #78d5d7 ;
+}
+
+.icon {
+    display: inline-block;
+}
+
+img.icon {
+    width: 33%;
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+    .top-section {
+        text-align: left;
+    }
+    a {
+        font-size: 2.5rem;
+    }
+}
+
+
